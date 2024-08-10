@@ -42,6 +42,9 @@ h1 {
     /* object-position: center; */
 }
 
+/* object-fit 可以控制图片在容器内的宽高比 */
+/* https://www.youtube.com/watch?v=SCKuB1Bu3Mk */
+
 .fill {
     object-fit: fill;
 }
@@ -52,12 +55,13 @@ h1 {
 
 .cover {
     object-fit: cover;
+    object-position: top left;
 }
 
 .scale-down {
     object-fit: scale-down;
-    object-position: top left;
 }
+
 .none {
     object-fit: none;
     object-position: top left;
